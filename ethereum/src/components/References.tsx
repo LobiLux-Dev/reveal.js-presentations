@@ -1,4 +1,4 @@
-export const Slide7 = () => {
+export const References = () => {
 	return (
 		<section>
 			<h2>Referencias</h2>
