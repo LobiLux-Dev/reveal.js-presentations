@@ -1,15 +1,15 @@
-import EthereumLogo from '../assets/ethereum-logo.png'
-import MicrosoftLogo from '../assets/microsoft-logo.avif'
-
 import { Card } from '.'
+
+import EthereumLogoLandscape from '../assets/ethereum-logo-landscape.png'
+import MicrosoftLogoLandscape from '../assets/microsoft-logo-landscape.avif'
 
 export const Home = () => {
 	return (
 		<section>
 			<div className="!flex justify-around items-center">
-				<Card alt="Microsoft Logo" img={MicrosoftLogo} />
+				<Card alt="Microsoft Landscape" img={MicrosoftLogoLandscape} />
 				<h1>&</h1>
-				<Card alt="Ethereum Logo" img={EthereumLogo} />
+				<Card alt="Ethereum Landscape" img={EthereumLogoLandscape} />
 			</div>
 			<h2>
 				Uniendo el futuro digital:

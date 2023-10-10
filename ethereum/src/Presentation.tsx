@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 import Reveal from 'reveal.js'
 
-import { Home, Slide2, Slide3, Slide4, Slide5, Slide6, References } from './components'
+import { Home, WhatIs, Slide2, Slide3, Slide4, Slide5, Slide6, References } from './components'
 
 export const Presentation = () => {
 	useEffect(() => {
@@ -19,6 +19,7 @@ export const Presentation = () => {
 	return (
 		<div className="slides">
 			<Home />
+			<WhatIs />
 			<Slide2 />
 			<Slide3 />
 			<Slide4 />
