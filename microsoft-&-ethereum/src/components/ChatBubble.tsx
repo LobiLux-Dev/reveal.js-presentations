@@ -1,4 +1,4 @@
-import { ChatBubbleProps } from '../interfaces/ChatBuuble'
+import { ChatBubbleProps } from '../interfaces'
 
 export const ChatBubble: React.FC<ChatBubbleProps> = ({ alt, img, position, text }) => {
 	return (

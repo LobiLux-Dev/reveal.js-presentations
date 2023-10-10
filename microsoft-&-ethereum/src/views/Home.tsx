@@ -1,4 +1,4 @@
-import { Card } from '.'
+import { Card } from '../components'
 
 import EthereumLogoLandscape from '../assets/ethereum-logo-landscape.png'
 import MicrosoftLogoLandscape from '../assets/microsoft-logo-landscape.avif'

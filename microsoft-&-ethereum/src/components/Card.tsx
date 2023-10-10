@@ -1,4 +1,4 @@
-import { CardProps } from '../interfaces/Card'
+import { CardProps } from '../interfaces'
 
 export const Card: React.FC<CardProps> = ({ alt, body, img }) => {
 	return (

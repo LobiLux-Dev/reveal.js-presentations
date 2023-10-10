@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid'
 
-import { Card } from '.'
+import { Card } from '../components'
 
 import { CardProps } from '../interfaces/Card'
 
