@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid'
+
 import { Card } from '.'
 
 import { CardProps } from '../interfaces/Card'
@@ -29,8 +31,8 @@ export const WhatIs = () => {
 		<section>
 			<h1>¿Qué es?</h1>
 			<div className="!flex justify-around items-center">
-				{cardProps.map((cardProp, index) => (
-					<Card key={index} {...cardProp} />
+				{cardProps.map(cardProp => (
+					<Card key={uuidv4()} {...cardProp} />
 				))}
 			</div>
 		</section>
